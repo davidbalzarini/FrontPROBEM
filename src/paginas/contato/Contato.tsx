@@ -110,7 +110,7 @@ function Contato() {
 
 
             <Grid container justifyContent='center' >
-                <img className="imgcont" src="https://cdn.discordapp.com/attachments/1024648971429347398/1055540361264627792/2309757b9f043d9e9fa9745b85809000.png" alt="imagemcontato" />
+                <img className="imgcont" src="logoprobem.png" alt="imagemcontato" />
             </Grid>
 
 
@@ -119,17 +119,17 @@ function Contato() {
                     <Typography className='typo' variant='h3' component='h3' align='center' >Fale conosco</Typography>
 
                     <TextField onChange={(e) => setName(e.target.value)}
-                        value={name} label='Digite seu nome' variant="outlined" margin='normal' fullWidth />
+                        value={name} label='Digite seu nome' variant="outlined" margin='normal' fullWidth className='margin' />
                 
                     <TextField onChange={(e) => setEmail(e.target.value)}
-                        value={email} label='Digite seu e-mail' variant="outlined" margin='normal' fullWidth />
+                        value={email} label='Digite seu e-mail' variant="outlined" margin='normal' fullWidth className='margin'/>
                   
 
                     <TextField onChange={(e) => setMessage(e.target.value)}
-                        value={message}  label='Digite sua mensagem...' multiline rows={5} variant="outlined" margin='normal' fullWidth />
+                        value={message}  label='Digite sua mensagem...' multiline rows={5} variant="outlined" margin='normal' fullWidth className='margin'/>
                 
 
-                    <input className="button" type="submit" value="Enviar" />
+                    <input className="button margin" type="submit" value="Enviar" />
                 </form>
 
             </Grid>

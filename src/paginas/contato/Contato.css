@@ -78,3 +78,10 @@
       margin-bottom: 8vh;
     }
   }
+
+  @media (max-width: 425px){
+    .margin{
+      margin-left: 10vw !important;
+      width: 80vw !important;
+    }
+  }

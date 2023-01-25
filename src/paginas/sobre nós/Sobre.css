@@ -33,7 +33,7 @@
     width: 500px;
     height: 100px;
     margin-left: 5vw;
-    margin-top: 30vh;
+    margin-top: 35vh;
 
     font-family: 'Roboto';
     font-style: normal;
@@ -66,8 +66,8 @@
 
 @media (max-width:768px) {
     .img5{
-        padding-left: 15vw;
-        margin-top: 12vh;
+        padding-left: 17vw;
+        margin-top: 16vh;
     }
 
     .h1{
@@ -77,10 +77,95 @@
 
     .p{
         text-align: center;
-        padding-top: 10vh;
+        padding-top: 5vh;
         padding-left: 13vw;
         padding-right: 15vw;
     
     }
 
+}
+
+@media (max-width:425px) {
+    .h1{
+        font-size: 45px;
+        padding-left: 0 !important;
+        width: 100vw;
+        padding-right: 15vw;
+        margin-top: 0;
+    }
+
+    .p{
+        text-align: center;
+        padding-top: 5vh;
+        padding-left: 0 !important;
+        margin-left: 10vw;
+        width: 80vw;
+        padding-right: 15vw;
+        margin-top: 25vh;
+        
+    
+    }
+
+    .img5{
+        padding-left: 0vw;
+        margin-top: 40vh;
+        width: 100vw;
+    }
+
+}
+
+@media (max-width:375px){
+    .h1{
+        font-size: 40px;
+        padding-left: 0 !important;
+        width: 100vw;
+        padding-right: 15vw;
+        margin-top: 0;
+    }
+
+    .p{
+        text-align: center;
+        padding-top: 5vh;
+        padding-left: 0 !important;
+        margin-left: 10vw;
+        width: 80vw;
+        padding-right: 15vw;
+        margin-top: 25vh;
+        
+    
+    }
+
+    .img5{
+        padding-left: 0vw;
+        margin-top: 50vh;
+        width: 100vw;
+    }
+}
+
+@media (max-width:320px){
+    .h1{
+        font-size: 35px;
+        padding-left: 0 !important;
+        width: 100vw;
+        padding-right: 15vw;
+        margin-top: 0;
+    }
+
+    .p{
+        text-align: center;
+        padding-top: 0vh;
+        padding-left: 0 !important;
+        margin-left: 10vw;
+        width: 80vw;
+        padding-right: 15vw;
+        margin-top: 25vh;
+        
+    
+    }
+
+    .img5{
+        padding-left: 0vw;
+        margin-top: 67vh;
+        width: 100vw;
+    }
 }

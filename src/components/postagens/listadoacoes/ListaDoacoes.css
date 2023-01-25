@@ -32,3 +32,12 @@
         
     }
   }
+
+  @media (max-width: 425px) {
+    .display{
+        padding-left: 3vw !important;
+    }
+  }
+
+ 
+  

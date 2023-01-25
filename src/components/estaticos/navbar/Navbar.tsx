@@ -34,12 +34,20 @@ function Navbar(){
 
     return (
         <>
+            {/* <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=10, minimum-scale=1.0"></meta> */}
             <nav className="navbar">
 
                 <div>
-                    <a href="/home"><img className="tm padding" src="https://cdn.discordapp.com/attachments/1024648971429347398/1055540361264627792/2309757b9f043d9e9fa9745b85809000.png" alt="logo" /></a>
+                    <a href="/home"><img className="tm padding" src="logoprobem.png" alt="logo" /></a>
                 </div>
-                <div className="center">
+                <div className="center menu-section on">
+                    <Link to='/navmob'>
+                        <div className="menu-toggle">
+                            <div className="one"></div>
+                            <div className="two"></div>
+                            <div className="three"></div>
+                        </div>
+                    </Link>
                     <div className="btn">
                         <Link to="/home"><button className="btn btn-design">Home</button></Link>
                     </div>

@@ -16,3 +16,16 @@
     color: white !important;
   
 }
+
+@media (max-width: 425px){
+    .tamanhodocard{
+        width: 90vw !important;
+        height: 90vh !important;
+    
+    }
+
+    .margin-input{
+        margin-top: 3px !important;
+        margin-bottom: 3px !important;
+    }
+}

@@ -28,7 +28,29 @@
     /* … */
 
     .display{
-        padding-left: 25vw;
+        padding-left: 23vw !important;
+        
+    }
+  }
+
+  @media (max-width: 425px) {
+    .display{
+        padding-left: 3vw !important;
+    }
+  }
+  
+  @media (max-width: 375px) {
+    .display{
+        padding-left: 0vw !important;
+        margin-left: -25px !important;
+        
+    }
+  }
+  
+  @media (max-width: 320px) {
+    .display{
+        padding-left: 0vw !important;
+        margin-left: -30px !important;
         
     }
   }
